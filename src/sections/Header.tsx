@@ -4,7 +4,7 @@ import Image from 'next/image';
 import MenuIcon from '@/assets/menu.svg';
 export const Header = () => {
   return(
-    <header className='sticky top-0'>
+    <header className='sticky top-0 backdrop-blur-sm z-20'>
       <div className='flex items-center justify-center py-3 bg-black text-white text-sm gap-3'>
         <p className='text-white/60 hidden md:block'>Streamline your workflow and boost your productivity</p>
       <div className='inline-flex items-center gap-1'>
@@ -13,7 +13,7 @@ export const Header = () => {
       </div>
     </div>
     <div className='py-4'>
-      <div className='container'>
+      <div className='container pl-5'>
         <div className='flex items-center justify-between'>
           <Image src={Logo} alt="Logo" height={40} width={40}/>
           <MenuIcon className='w-5 h-5 md:hidden'/>
