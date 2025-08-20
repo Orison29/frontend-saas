@@ -13,4 +13,7 @@
        .btn-text{
            @apply bg-transparent text-black hover:bg-gray-100;
        }
+       .logo-ticker-image {
+           @apply h-8 w-auto;
+       }
 }

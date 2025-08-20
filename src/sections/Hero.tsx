@@ -52,10 +52,10 @@ export const Hero = () => {
             />
             <Image
               src={noodele}
-              width={300}
-              height={300}
+              width={200}
+              height={200}
               alt="Noodle image"
-              className="hidden md:block absolute -bottom-44 -right-24 md:rotate-[30deg]"
+              className="hidden md:block absolute -bottom-44 -right-0 md:rotate-[30deg]"
             />
           </div>
 
